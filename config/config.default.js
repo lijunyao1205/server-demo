@@ -6,10 +6,10 @@
  * @param {Egg.EggAppInfo} appInfo app info
  */
 module.exports = appInfo => {
-  /**
-   * built-in config
-   * @type {Egg.EggAppConfig}
-   **/
+/**
+ * built-in config
+ * @type {Egg.EggAppConfig}
+ **/
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security
@@ -18,7 +18,7 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
-  //add mysql config here
+  // add mysql config here
   config.mysql = {
     // 单数据库信息配置
     client: {
@@ -49,5 +49,3 @@ module.exports = appInfo => {
     ...userConfig,
   };
 };
-
-
