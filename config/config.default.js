@@ -10,7 +10,7 @@ module.exports = appInfo => {
   config.middleware = [];
 
   // add mysql config here
-  config.mysql = {
+  /*config.mysql = {
     // 单数据库信息配置
     client: {
       // host
@@ -28,7 +28,7 @@ module.exports = appInfo => {
     app: true,
     // 是否加载到 agent 上，默认关闭
     agent: false,
-  };
+  };*/
 
   // add your user config here
   const userConfig = {
